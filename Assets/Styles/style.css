@@ -254,7 +254,6 @@ main {
     color: var(--text-color);
 }
 
-/* Order Summary Styles */
 .order-summary {
     margin-top: 1rem;
     padding: 1rem;
@@ -286,7 +285,6 @@ main {
     color: var(--secondary-color);
 }
 
-/* Submit Button Styles */
 .submit-btn {
     width: 100%;
     padding: 1rem;
@@ -311,13 +309,190 @@ main {
     transform: translateY(0);
 }
 
-/* Responsive Adjustments */
-@media (max-width: 768px) {
-    .checkbox-group {
-        gap: 1rem;
-    }
-    
-    .order-summary {
-        margin-top: 2rem;
-    }
+.order-form {
+    max-width: 600px;
+    margin: 0 auto;;
 }
+
+.order-form input[type="text"],pe="text"],
+.order-form input[type="tel"],el"],
+.order-form input[type="email"],r-form input[type="email"],
+.order-form textarea,order-form textarea,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}    }        margin-bottom: 1.5rem;    .form-group {        }        padding: 0 1rem;    .order-form {        }        margin-top: 2rem;    .order-summary {        }        gap: 1rem;    .checkbox-group {@media (max-width: 768px) {/* Responsive Adjustments */}    text-decoration: underline;    color: var(--secondary-color);.back-link:hover {}    transition: color 0.3s ease;    font-weight: 600;    text-decoration: none;    color: var(--primary-color);.back-link {}    text-align: center;    margin-top: 2rem;.auth-links {/* Back Link Styles */}    transform: translateY(0);.submit-btn:active {}    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);    transform: translateY(-2px);    background-color: var(--secondary-color);.submit-btn:hover {}    letter-spacing: 1px;    text-transform: uppercase;    transition: all 0.3s ease;    cursor: pointer;    font-weight: bold;    font-size: 1.1rem;    border-radius: 25px;    border: none;    color: white;    background-color: var(--primary-color);    margin-top: 2rem;    padding: 1rem;    width: 100%;.submit-btn {}    display: block;    margin-bottom: 0.5rem;    font-size: 1.1rem;    font-weight: 600;    color: var(--primary-color);.order-form label {}    box-shadow: 0 0 8px rgba(139, 69, 19, 0.2);    border-color: var(--primary-color);    outline: none;.order-form select:focus {.order-form textarea:focus,.order-form input:focus,}    background-color: var(--background-color);    transition: all 0.3s ease;    margin-top: 0.5rem;    font-size: 1rem;    border-radius: 8px;    border: 2px solid var(--accent-color);    padding: 12px;    width: 100%;.order-form select {.order-form select {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid var(--accent-color);
+    border-radius: 8px;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    transition: all 0.3s ease;
+    background-color: var(--background-color);
+}
+
+.order-form input:focus,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+    }
+        margin-bottom: 1.5rem;
+    .form-group {
+    
+    }
+        padding: 0 1rem;
+    .order-form {
+    
+    }
+
+        margin-top: 2rem;    .order-summary {        }        gap: 1rem;    .checkbox-group {
+
+
+
+
+
+@media (max-width: 768px) {/* Responsive Adjustments */}    text-decoration: underline;
+    color: var(--secondary-color);.back-link:hover {
+
+}
+    transition: color 0.3s ease;
+
+    font-weight: 600;    text-decoration: none;
+    color: var(--primary-color);
+
+.back-link {}    text-align: center;    margin-top: 2rem;.auth-links {
+/* Back Link Styles */
+
+}    transform: translateY(0);.submit-btn:active {
+}
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+    transform: translateY(-2px);
+
+
+
+
+
+    background-color: var(--secondary-color);.submit-btn:hover {
+
+}
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.1rem;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    background-color: var(--primary-color);
+    margin-top: 2rem;
+    padding: 1rem;    width: 100%;.submit-btn {}    display: block;
+
+
+    margin-bottom: 0.5rem;    font-size: 1.1rem;    font-weight: 600;
+
+
+    color: var(--primary-color);.order-form label {}    box-shadow: 0 0 8px rgba(139, 69, 19, 0.2);.order-form textarea:focus,
+.order-form select:focus {
+
+    border-color: var(--primary-color);    outline: none;
