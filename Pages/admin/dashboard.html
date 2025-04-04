@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../Assets/Styles/style2.css">
+    <title>Admin Dashboard - Milk-TeaLuxe</title>
+</head>
+<body>
+    <header>
+        <h1>Milk-TeaLuxe Admin</h1>
+        <p>Dashboard</p>
+    </header>
+    <main>
+        <div class="container">
+            <div class="dashboard-nav">
+                <a href="#orders" class="dashboard-link active">Orders</a>
+                <a href="#products" class="dashboard-link">Products</a>
+                <a href="#users" class="dashboard-link">Users</a>
+                <a href="../../index.html" class="logout-btn">Logout</a>
+            </div>
+            
+            <div class="dashboard-section" id="orders">
+                <div class="card">
+                    <h2>Recent Orders</h2>
+                    <table class="admin-table">
+                        <thead>
+                            <tr>
+                                <th>Order ID</th>
+                                <th>Customer</th>
+                                <th>Items</th>
+                                <th>Address</th>
+                                <th>Total</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>#001</td>
+                                <td>John Doe</td>
+                                <td>Classic Milk Tea</td>
+                                <td>123 Main St, City</td>
+                                <td>₱120.00</td>
+                                <td>Pending</td>
+                            </tr>
+                            <tr>
+                                <td>#002</td>
+                                <td>Jane Smith</td>
+                                <td>Taro Milk Tea</td>
+                                <td>456 Park Ave, City</td>
+                                <td>₱135.00</td>
+                                <td>Delivered</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="dashboard-section" id="products">
+                <div class="card">
+                    <h2>Manage Products</h2>
+                    <button class="admin-btn">Add New Product</button>
+                    <table class="admin-table">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Price</th>
+                                <th>Category</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Classic Milk Tea</td>
+                                <td>₱120.00</td>
+                                <td>Milk Tea</td>
+                                <td>
+                                    <button class="action-btn edit">Edit</button>
+                                    <button class="action-btn delete">Delete</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
