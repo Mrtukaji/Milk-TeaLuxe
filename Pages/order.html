@@ -1,11 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-     <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Order Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Assets/Styles/style.css">
+    <title>Order - Milk-TeaLuxe</title>
 </head>
 <body>
-     
+    <header>
+        <h1>Milk-TeaLuxe</h1>
+        <p>Place Your Order</p>
+    </header>
+    <main>
+        <div class="container">
+            <div class="card">
+                <h2>Your Order</h2>
+                <form action="#" method="POST" class="order-form">
+                    <div class="form-group">
+                        <label for="drink">Select Your Drink</label>
+                        <select id="drink" name="drink" required>
+                            <option value="">Choose a drink...</option>
+                            <option value="classic">Classic Milk Tea</option>
+                            <option value="matcha">Matcha Latte</option>
+                            <option value="taro">Taro Milk Tea</option>
+                            <option value="thai">Thai Tea</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="size">Size</label>
+                        <select id="size" name="size" required>
+                            <option value="">Choose size...</option>
+                            <option value="small">Small</option>
+                            <option value="medium">Medium</option>
+                            <option value="large">Large</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="sugar">Sugar Level</label>
+                        <select id="sugar" name="sugar" required>
+                            <option value="">Choose sugar level...</option>
+                            <option value="0">0%</option>
+                            <option value="25">25%</option>
+                            <option value="50">50%</option>
+                            <option value="75">75%</option>
+                            <option value="100">100%</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="ice">Ice Level</label>
+                        <select id="ice" name="ice" required>
+                            <option value="">Choose ice level...</option>
+                            <option value="less">Less Ice</option>
+                            <option value="normal">Normal Ice</option>
+                            <option value="extra">Extra Ice</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="toppings">Add Toppings</label>
+                        <div class="checkbox-group">
+                            <input type="checkbox" id="pearls" name="toppings" value="pearls">
+                            <label for="pearls">Pearls</label>
+                            
+                            <input type="checkbox" id="pudding" name="toppings" value="pudding">
+                            <label for="pudding">Pudding</label>
+                            
+                            <input type="checkbox" id="jelly" name="toppings" value="jelly">
+                            <label for="jelly">Jelly</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="notes">Special Instructions</label>
+                        <textarea id="notes" name="notes" rows="3"></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-btn" style="background-color: var(--primary-color); color: white;">
+                        Place Order
+                    </button>
+                </form>
+            </div>
+
+            <div class="card">
+                <h2>Order Summary</h2>
+                <div class="order-summary">
+                    <p>Selected Drink: <span id="selected-drink">-</span></p>
+                    <p>Size: <span id="selected-size">-</span></p>
+                    <p>Total Price: <span id="total-price">0.00 ₱</span></p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="auth-links" style="margin-top: 2rem; text-align: center;">
+    </div>
 </body>
 </html>
